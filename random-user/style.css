@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Lexend+Deca:wght@600&family=Manrope&family=Nosifer&family=Orienta&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background-color: #f8f9fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 600px;
+}
+
+.header{
+    background-color: #3e57db;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.title{
+    margin: 5px 0;
+}
+
+.subtitle{
+    display: inline-block;
+    margin: 5px 0 20px;
+    opacity: 0.8;
+}
+
+header .input_1{
+    display: flex;
+    align-items: center;
+}
+
+header .input_1 i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+header .input_1 input{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    width: 100%;
+    outline: none;
+}
+
+input::placeholder{
+    color: #fff;
+    opacity: 0.7;
+}
+
+.user-list{
+    list-style: none;
+    background-color: #fff;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.user-list li{
+    display: flex;
+    padding: 20px;
+    position: relative;
+}
+
+.user-list li img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-list .user-info{
+    margin-left: 10px;
+}
+
+.user-list .user-info h4{
+    margin-bottom: 10px;
+}
+
+.user-list li.hide{
+    display: none;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    position: absolute;
+    top: 30%;
+    right: 2%;
+}
+
+.arkadas{
+    width: 400px;
+    background-color: #3e57db;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    margin: 0 20px;
+    display: none;
+    position: relative;
+}
+
+.arkadas h2{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.arkadas .ekle_1{
+    max-height: 450px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.arkadas .ekle_1::-webkit-scrollbar{
+   width: 10px; 
+}
+
+.arkadas .ekle_1::-webkit-scrollbar-thumb {
+    background-color: #3f6e9d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.arkadas .ekle_1::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.arkadas .ekle_1 .liste{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.arkadas .ekle_1 .liste img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.arkadas .ekle_1 .liste .bilgi{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.arkadas .ekle_1 .liste .btn_1{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.sil{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
